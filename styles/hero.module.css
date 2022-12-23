@@ -4,13 +4,13 @@
 }
 
 .title {
-    font-size: car(--display);
+    font-size: var(--display);
     font-weight: 900;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.15em;
 }
 
 .subtitle {
-    font-size: car(--small-heading2);
+    font-size: var(--small-heading2);
 }
 
 

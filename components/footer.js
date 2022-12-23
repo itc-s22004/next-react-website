@@ -2,9 +2,9 @@ import Logo from 'components/logo'
 
 const Footer = () => {
   return (
-  <footer>
-    <Logo />
-  </footer>
+    <footer>
+      <Logo />
+    </footer>
   )
 }
 
