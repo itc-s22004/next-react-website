@@ -6,7 +6,7 @@ import styles from 'styles/footer.module.css'
 const Footer = () => {
   return (
     <footer className={styles.wrapper}>
-      <Container large>
+      <Container>
         <div className={styles.flexContainer}>
           <Logo />
           <Social />
