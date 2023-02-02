@@ -24,7 +24,8 @@ const About = () => {
         <Image
           src={eyecatch}
           alt=""
-          layout="responsive"
+          // layout="responsive"
+          style={{width: "100", height: "auto"}}
           sizes="(min-width: 1152px) 1152px, 100vw"
           priority
           placeholder="blur"
