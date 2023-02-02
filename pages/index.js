@@ -7,7 +7,7 @@ const Home = () => {
     <Container>
       <Meta />
       <Hero
-        title='CUBE'
+        title='CUBEee'
         subtitle='アウトプットしていくサイト'
         imageOn
       />
