@@ -11,7 +11,8 @@ import Meta from 'components/meta'
 import { eyecatchLocal } from 'lib/constants'
 import { getPlaiceholder } from 'plaiceholder'
 import { prevNextPost } from 'lib/prev-next-post'
-import Pagination from '@/components/pagination'
+import Pagination from 'components/pagination'
+
 
 export default function Post({
     title,
@@ -37,6 +38,7 @@ export default function Post({
 
                 <figure>
                     <Image
+                        // key={eyecatch.url}
                         src={eyecatch.url}
                         alt=""
                         style={{
@@ -66,8 +68,6 @@ export default function Post({
                     nextUrl={`/blog/${nextPost.slug}`}
                 />
 
-                <div>{prevPost.title} {prevPost.slug}</div>
-                <div>{nextPost.title} {nextPost.slug}</div>
             </article>
         </Container>
     )
