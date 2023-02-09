@@ -8,7 +8,6 @@ import { eyecatchLocal } from 'lib/constants'
 
 
 export default function Blog({posts}) {
-  // console.log(posts)
   return (
     <Container>
       <Meta pageTitle="ブログ" />
