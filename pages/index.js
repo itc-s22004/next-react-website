@@ -12,7 +12,7 @@ import {getAllPosts} from 'lib/api'
 import Container from 'components/container'
 import Hero from 'components/hero'
 import Posts from 'components/posts'
-import Pagination from 'components/pagination'
+// import Pagination from 'components/pagination'
 import {getPlaiceholder} from 'plaiceholder'
 import { eyecatchLocal } from 'lib/constants'
 
@@ -26,7 +26,7 @@ const Home = ({posts}) => {
         imageOn
       />
       <Posts posts={posts} />
-      <Pagination nextUrl='/blog' nextText="More Posts" />
+      {/* <Pagination nextUrl='/blog' nextText="More Posts" /> */}
     </Container>
   )
 }
